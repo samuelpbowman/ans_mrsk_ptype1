@@ -1,0 +1,74 @@
+extends layout
+
+block content
+  .container
+    .col-md-1
+    h1 What I Do
+    .accordion#accordionMaster
+      .card
+        .card-header#headingOne
+          button.btn.btn-link.btn-block.text-left(type='button', data-toggle='collapse', data-target='#collapseOne')
+            h5 What's a pilate?
+        .collapse#collapseOne(data-parent='#accordionMaster')
+          .card-body
+            p Pilates is a method of exercise that consists of low-impact flexibility and muscular strength and endurance movements. Pilates emphasizes proper postural alignment, core strength and muscle balance. Pilates is named for its creator, Joseph Pilates, who developed the exercises in the 1920s.
+      
+      .card
+        .card-header#headingTwo
+          button.btn.btn-link.btn-block.text-left(type='button', data-toggle='collapse', data-target='#collapseTwo')
+            h5 But it looks hard Oh Em Gee
+        .collapse#collapseTwo(data-parent='#accordionMaster')
+          .card-body
+            p It's a common misconception that Pilates is only for serious athletes or professional dancers. While these groups first adopted Pilates, they aren't the only ones who can benefit from this approach to strength training.
+            p Another common misperception is that Pilates requires specialized equipment. Maybe you've seen a Pilates apparatus — called a Reformer — that looks like a bed frame with a sliding carriage and adjustable springs, or perhaps you've seen a type of trapeze table. But don't let those machines intimidate you.
+            p The reality is that many Pilates exercises can be done on the floor with just a mat.
+
+      .card
+        .card-header#headingThree
+          button.btn.btn-link.btn-block.text-left(type='button', data-toggle='collapse', data-target='#collapseThree')
+            h5 What's in it for me?!
+        .collapse#collapseThree(data-parent='#accordionMaster')
+          .card-body
+            p By practicing Pilates regularly, you can achieve a number of health benefits, including:
+            ul
+              li Improved core strength and stability
+              li Improved posture and balance
+              li Improved flexibility
+              li Prevention and treatment of back pain
+
+      .card
+        .card-header#headingFour
+          button.btn.btn-link.btn-block.text-left(type='button', data-toggle='collapse', data-target='#collapseFour')
+            h5 Can I bring my best friend/significant other/grandma/dog?
+        .collapse#collapseFour(data-parent='#accordionMaster')
+          .card-body
+            p If you're older, haven't exercised for some time or have health problems, it's a good idea to check with your doctor before starting any new exercise program. Pilates is no exception. Similarly, women who are pregnant should check with their health care providers before starting Pilates or other exercise programs.
+            p Pilates can be adapted to provide a gentle strength training and stability program, or it can be modified to give a seasoned athlete a challenging workout. If you're just starting out, it's a good idea to go slow at first and gradually increase the intensity of your workout.
+            p Let your instructor know if you have any conditions or previous injuries so he or she can assist you in modifying movements.
+            p Because it's essential to maintain the correct form to get the most benefit — and to avoid injuries — beginners should start out under the supervision of an experienced Pilates instructor.
+
+      .card
+        .card-header#headingFive
+          button.btn.btn-link.btn-block.text-left(type='button', data-toggle='collapse', data-target='#collapseFive')
+            h5 So who's qualified to teach such a class?
+        .collapse#collapseFive(data-parent='#accordionMaster')
+          .card-body
+            p The Pilates Method Alliance offers referral services for certified instructors and provides Pilates instruction and certification. You can also check with local gyms or YMCAs in your area. Ask the following questions of any Pilates instructor you're considering:
+            ul
+              li Did the instructor complete a comprehensive training program that included a training apprenticeship?
+              li Is the instructor able to adapt exercises for special needs, such as injuries and rehabilitation?
+
+      .card
+        .card-header#headingSix
+          button.btn.btn-link.btn-block.text-left(type='button', data-toggle='collapse', data-target='#collapseSix')
+            h5 do i HAVE to do cardio?!
+        .collapse#collapseSix(data-parent='#accordionMaster')
+          .card-body
+            p The Department of Health and Human Services recommends that healthy adults include aerobic exercise and strength training in their fitness programs, specifically:
+            ul
+              li At least 150 minutes of moderate aerobic activity or 75 minutes of vigorous aerobic activity a week, or a combination of moderate and vigorous activity, spread out during the course of a week
+              li Strength training exercises for all major muscle groups at least two times a week
+            p Pilates can be a good strength training workout, but it isn't aerobic exercise. You'll also need to include aerobic exercises, such as brisk walking, running, biking or swimming.
+    br/
+    p Reference:
+      a(href='https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/pilates-for-beginners/art-20047673') https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/pilates-for-beginners/art-20047673
